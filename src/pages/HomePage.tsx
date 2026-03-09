@@ -8,7 +8,7 @@ export default function HomePage() {
   return (
     <div className="h-screen w-full flex flex-col items-center justify-center bg-[#434E61] gap-6">
 
-      <img src="/src/assets/logo.svg" alt="logo" className="w-72" />
+      <img src="/src/assets/logo.png" alt="logo" className="w-72" />
 
       <Button className="bg-[#FF8C1E] px-32 py-3 text-white shadow-2xl" onClick={() => setOpen(true)}>
         Open Model
